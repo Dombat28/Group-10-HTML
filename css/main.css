@@ -27,8 +27,3 @@ a{
 body{
     background-color: blue;
 }
-
-main{
-    position: fixed;
-    top: 50%;
-}
