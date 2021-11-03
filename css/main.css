@@ -25,5 +25,59 @@ a{
     font-size: 50px;
 }
 body{
-    background-color: blue;
+    background-color: rgb(11, 1, 65);
+    /*
+    background-image: url(../images/free-stars-pattern-vectors.jpg);
+    background-repeat: repeat;
+    */
+    color: white;
 }
+
+.main_section{
+    display: flex;
+    flex-direction: row;
+}
+.main_section>article{
+    flex:1 1 70%;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.main_section article h1{
+    text-align: center;
+    
+}
+.main_section>aside{
+    display: flex;
+    flex:1 1 30%;
+    flex-direction: column;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.main_section aside h2{
+    text-align: center;
+}
+
+img {
+    width: 96%;
+    height: auto;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h2 {
+    display: block;
+    font-size: 1em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
