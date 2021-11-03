@@ -20,8 +20,11 @@
 				</nav>
 	</header>
 	<main>
-		<h2>Enter sleep diary</h2>
-		<textarea rows="5" cols="80"></textarea>
+		<h2>Please enter your sleep diary entry here:</h2>
+		<form action="/action_page.php">
+  		<textarea name = "diary-post" rows= "10" cols= "40" required></textarea>
+  		<button type="submit">Log it Up!</button>
+</form>
 		<h2> View previous entries</h2>
 		<ul>
                     <li>Previous entries will appear here</li>
