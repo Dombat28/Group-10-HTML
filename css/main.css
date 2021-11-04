@@ -163,3 +163,13 @@ h1 {
         margin-left: 25%
   }
 
+
+  .ProductImage{
+    float:left;
+    width: 8%;
+    height: auto;
+    margin-right: 10px;
+  }
+  .products h2{
+      text-align:center;
+  }

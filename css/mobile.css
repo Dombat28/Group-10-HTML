@@ -156,7 +156,7 @@ h1 {
     background:cyan;
     color: black;
   }
-
+  
   .name {
         text-align: center;
         font-size: 25px;
@@ -165,3 +165,13 @@ h1 {
         margin-left: 25%
   }
 
+  .ProductImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  .products h2{
+      text-align:center;
+  }
