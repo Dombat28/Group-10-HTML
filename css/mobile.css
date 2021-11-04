@@ -5,7 +5,7 @@ nav {
     float: center;
     text-align: center;
     padding: 10px 25px;
-    font-size: 15px;
+    font-size: 11px;
     background-color: aqua;
     text-decoration: none;
     display: flex;
@@ -117,4 +117,3 @@ h1 {
     margin-right: 0;
     font-weight: bold;
   }
-
