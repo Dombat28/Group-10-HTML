@@ -14,8 +14,12 @@ nav {
 
 }
 .navbar a:hover{
-    font-size: 30px;
     color: red;
+}
+.current{
+    font-size: 30px;
+    font-style: italic;
+    
 }
 a{ 
     text-decoration: none;
