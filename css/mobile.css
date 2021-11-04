@@ -54,7 +54,7 @@ figcaption{
 
 
 body{
-    background-color: rgb(11, 1, 65);
+    background-color: rgb(100, 61, 61);
     /*
     background-image: url(../images/free-stars-pattern-vectors.jpg);
     background-repeat: repeat;
@@ -64,7 +64,7 @@ body{
 
 .main_section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .main_section>article{
     flex:1 1 70%;
@@ -78,7 +78,7 @@ body{
 .main_section>aside{
     display: flex;
     flex:1 1 30%;
-    flex-direction: column;
+    flex-direction: row;
     border: 2px solid white;
     margin-top: 10px;
 }
