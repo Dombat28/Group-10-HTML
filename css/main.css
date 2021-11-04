@@ -19,7 +19,8 @@ nav {
 .current{
     font-size: 30px;
     font-style: italic;
-    
+    text-decoration: underline;
+    color: purple;
 }
 a{ 
     text-decoration: none;

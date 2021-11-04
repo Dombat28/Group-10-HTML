@@ -16,6 +16,12 @@ nav {
 .navbar a:hover{
     background-color: chartreuse;
 }
+.current{
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: underline;
+    color: purple;
+}
 a{ 
     text-decoration: none;
     text-emphasis-color: black;
@@ -110,10 +116,52 @@ h1 {
 
   h2 {
     display: block;
-    font-size: 1em;
+    font-size: 11px;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
   }
+
+  .entry {
+    border-radius: 5px;
+    background:cyan;
+    color: black;
+    margin-bottom: 100px;
+    margin-right: 25%;
+    margin-left:25%;
+    font-size: 18px;
+  }
+  form{
+      display: flex;
+      justify-content: center;
+  }
+
+  .container{
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+  }
+  .container > div{
+      display: flex;
+      flex-basis: 45%;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 4%;
+      margin-left: 2%;
+      margin-right: 2%;  
+      border-radius: 5px;
+      text-align: center;
+    background:cyan;
+    color: black;
+  }
+
+  .name {
+        text-align: center;
+        font-size: 25px;
+        color: purple;
+        margin-right: 25%;
+        margin-left: 25%
+  }
+
