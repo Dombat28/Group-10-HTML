@@ -5,7 +5,7 @@ nav {
     float: center;
     text-align: center;
     padding: 10px 25px;
-    font-size: 25px;
+    font-size: 15px;
     background-color: aqua;
     text-decoration: none;
     display: flex;
@@ -21,6 +21,7 @@ a{
     text-emphasis-color: black;
 }
 .banner {
+    display: none;
     text-align: center;
     font-size: 50px;
     color: red;
@@ -28,7 +29,7 @@ a{
 /**New added conflict*/
 .heading{
     text-align: center;
-    font-size: 25px;
+    font-size: 11px;
     border-radius: 20px;
     background:purple;
     margin-right: 25%;
@@ -45,8 +46,8 @@ a{
 }
 **/
 figcaption{
-    text-align: center;
-    font-size: 15px;
+    text-align: right;
+    font-size:7px;
     color:red;
 }
 /**New added conflict*/
@@ -54,7 +55,7 @@ figcaption{
 
 
 body{
-    background-color: rgb(100, 61, 61);
+    background-color: rgb(11, 1, 65);
     /*
     background-image: url(../images/free-stars-pattern-vectors.jpg);
     background-repeat: repeat;
@@ -66,9 +67,15 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .main_section>article{
     flex:1 1 70%;
     border: 2px solid white;
+    margin-top: 10px;
+}
+.main_section>article>p{
+    display:none;
+    padding: 0px 10px;
     margin-top: 10px;
 }
 .main_section article h1{

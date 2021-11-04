@@ -29,7 +29,7 @@ a{
 /**New added conflict*/
 .heading{
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     border-radius: 20px;
     background:purple;
     margin-right: 25%;
@@ -46,8 +46,8 @@ a{
 }
 **/
 figcaption{
-    text-align: center;
-    font-size: 15px;
+    text-align: right;
+    font-size: 10px;
     color:red;
 }
 /**New added conflict*/
@@ -55,7 +55,7 @@ figcaption{
 
 
 body{
-    background-color: rgb(233, 170, 35);
+    background-color: rgb(1, 1, 65);
     /*
     background-image: url(../images/free-stars-pattern-vectors.jpg);
     background-repeat: repeat;
@@ -70,6 +70,21 @@ body{
 .main_section>article{
     flex:1 1 70%;
     border: 2px solid white;
+    margin-top: 10px;
+    margin-left:2%;
+}
+.main_section>article>figure{
+    float:left;
+    width:70%;
+    margin: 10px 5px 0px 5px;
+    
+}
+.main_section>article>p{
+    float:left;
+    width:23%;
+    height:170px;                 /*Controls the height of the paragraph block. Text can overflow box. Put border around it. Height should be based on the image- but no time*/
+    overflow:hidden;/*The height is specified earlier- hide text that is overflowed*/
+    padding: 0px 10px;
     margin-top: 10px;
 }
 .main_section article h1{

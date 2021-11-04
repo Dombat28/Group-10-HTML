@@ -45,7 +45,7 @@ a{
 }
 **/
 figcaption{
-    text-align: center;
+    text-align: right;
     font-size: 15px;
     color:red;
 }
@@ -69,6 +69,10 @@ body{
 .main_section>article{
     flex:1 1 70%;
     border: 2px solid white;
+    margin-top: 10px;
+}
+.main_section>article>p{
+    padding: 0px 10px;
     margin-top: 10px;
 }
 .main_section article h1{
