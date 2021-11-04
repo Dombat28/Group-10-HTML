@@ -14,7 +14,8 @@ nav {
 
 }
 .navbar a:hover{
-    background-color: chartreuse;
+    font-size: 30px;
+    color: red;
 }
 a{ 
     text-decoration: none;
@@ -109,5 +110,19 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+  }
+
+  .entry {
+    border-radius: 5px;
+    background:cyan;
+    color: black;
+    margin-bottom: 100px;
+    margin-right: 25%;
+    margin-left:25%;
+    font-size: 18px;
+  }
+  form{
+      display: flex;
+      justify-content: center;
   }
 

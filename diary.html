@@ -5,6 +5,7 @@
 	<meta charset= "utf-8" />
 <title>Sleep Tight</title>
 <link rel="stylesheet" href="css/main.css" />
+<link rel = "icon" href= "images/moon.png">
 <script src= "js/html5shiv.js"> </script>
 </head>
 <body>
@@ -20,15 +21,21 @@
 				</nav>
 	</header>
 	<main>
-		<h2>Please enter your sleep diary entry here:</h2>
-		<form action="/action_page.php">
-  		<textarea name = "diary-post" rows= "10" cols= "40" required></textarea>
-  		<button type="submit">Log it Up!</button>
-</form>
-		<h2> View previous entries</h2>
+		<div class = "enter">
+		<h2 class = "heading">Please enter your sleep diary entry here:</h2>
+		<form>
+  			<textarea name = "diary-post" rows= "10" cols= "40" required></textarea>
+  			<button type="submit">Log it Up!</button>
+		</form>
+		</div>
+		<div class = "Previous">
+		<h2 class = "heading"> View previous entries</h2>
 		<ul>
-                    <li>Previous entries will appear here</li>
-                    <li>My sleep tonight was........</li>
+                    <li class = "entry">My sleep last night was very good I noticed that lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel pretium lectus. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet.</li>
+                    <li class = "entry">My sleep tonight was lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem fringilla ut morbi tincidunt augue interdum. Sit amet est placerat in egestas erat. Amet porttitor eget dolor morbi non arcu risus quis. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Volutpat maecenas volutpat blandit aliquam.</li>
+					<li class = "entry">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum lacinia quis vel eros. Dictum non consectetur a erat nam at lectus urna.</li>
+		</ul>
+		</div>
 	</main>
 	<footer>
 </footer>
