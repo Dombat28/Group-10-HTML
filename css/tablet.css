@@ -145,9 +145,19 @@ h1 {
     margin-left:10%;
     font-size: 18px;
   }
-  form{
+ .textBox{
       display: flex;
+      flex-direction: row ;
       justify-content: center;
+      margin:auto;
+  }
+
+  .recent{
+    text-align:center;
+  }
+
+  .textInput{
+    width: 50%;
   }
 
   .container{
