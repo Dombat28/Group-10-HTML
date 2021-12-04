@@ -5,7 +5,7 @@ function sleepLog(){
     var ul = document.getElementById("posts");
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(text));
-    li.setAttribute("class", "entry"); // added line
+    li.setAttribute("class", "entry"); 
     ul.appendChild(li);
     document.getElementById('recent').innerHTML = text;
 
