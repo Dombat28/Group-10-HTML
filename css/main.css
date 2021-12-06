@@ -189,3 +189,14 @@ h1 {
   .products h2{
       text-align:center;
   }
+
+  .ContactImage{
+    float:left;
+    width: 8%;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .contacts h2{
+      text-align:center;
+  }
