@@ -210,9 +210,11 @@ h1 {
 
   .contacts{
     border-bottom: 4px solid white;
+    overflow: hidden;
 }
     .products{
     border-bottom: 4px solid white;
+    overflow: hidden;
 }
 
   .contacts h2{
