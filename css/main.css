@@ -60,8 +60,16 @@ figcaption{
     color:red;
 }
 /**New added conflict*/
-
-
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 body{
     background-color: rgb(11, 1, 65);
