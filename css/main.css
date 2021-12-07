@@ -205,6 +205,14 @@ h1 {
     margin-right: 10px;
   }
 
+  .contacts{
+      border-bottom: 4px solid white;
+  }
+  .products{
+    border-bottom: 4px solid white;
+}
+
+
   .contacts h2{
       text-align:center;
   }
