@@ -18,7 +18,7 @@ nav {
 
 }
 .navbar a:hover{
-    color: red;
+    text-decoration: underline;
 }
 .current{
     font-size: 30px;
